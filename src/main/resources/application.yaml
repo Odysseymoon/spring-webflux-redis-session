@@ -58,3 +58,5 @@ spring:
         max-active: 10
   session:
     store-type: redis
+    redis:
+      flush-mode: immediate
